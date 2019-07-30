@@ -1,0 +1,408 @@
+body {
+
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    color: white;
+}
+
+h2 {
+    color: #004cff99;
+    margin: 15px;
+}
+
+h3 {
+    color: #004cff99;
+    font-size: 14px;
+    margin: 5px;
+}
+
+p{
+    color: grey;
+    font-size: 15px;
+}
+
+.div-pagina-1{
+    width: 65%;
+    margin-left: 10%
+
+}
+
+.navbar-padrao {
+    display: flex;
+    margin-right: 100px;
+}
+
+.nav-link {
+    padding: 5px;
+    transition-duration: 300ms;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    color: dimgrey;
+}
+
+.imagem-padrao {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #004cff99;
+    padding: 2em 10% 0 10%;
+}
+
+li {
+    list-style: none;
+}
+
+#pg-1 {
+
+    padding: 5% 5% 5% 5%;
+    position: relative;
+    background-color: #004cff99;
+    background-image: url("../img/bg-home.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.botao-conheca {
+    font-weight: lighter;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition-duration: 500ms;
+}
+
+.botao-conheca:hover {
+    background-color: white;
+    color: #004cff99;
+}
+
+.header-pagina-2{
+    background-color: transparent;
+    text-align: center;
+}
+
+.titulo-pagina-2{
+    color: #004cff99;
+    font-size: 24px;
+
+}
+
+.div-item-pagina-2{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+.item-pagina-2 {
+    flex-basis: 200px;
+    margin: 2em 1em;
+    text-align: center;
+}
+
+#pg-3{
+    background-color: rgba(121, 121, 121, 0.144);
+}
+
+.header-pagina-3{
+    height:35%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 25px;
+    text-align: center;
+
+
+}
+
+.titulo-pagina-3{
+    justify-content: center;
+    padding-top: 25px;
+    color: #004cff99;
+    font-size: 24px;
+}
+
+.div-item-pagina-3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+.item-pagina-3 {
+    background: white;
+    border-radius: 10px;
+    padding: 0 25px;
+    margin: 40px 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.titulo-item-pagina-3 {
+
+    margin-top: -10px;
+    padding: 10x 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.div-pagina-4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+#pg-4{
+    background-color: rgba(121, 121, 121, 0.144);
+
+}
+
+.titulo-pagina-4 {
+    color: white;
+    font-size: 25px;
+}
+
+.img-backgorud-pagina-4 {
+
+    background-image: url("../img/breathe-bg.png");
+    background-repeat: no-repeat;
+    padding: 15%;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.div-item-pagina-4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+.item-pagina-4 {
+    padding: 0 25px;
+    margin: 40px 25px;
+    width: 350px;
+    
+}
+
+.icon-pagina-4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+.titulo-item-pagina-4 {
+
+    padding: 10x 0;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.div-pagina-5{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.titulo-pagina-5{
+
+    padding-top: 25%;
+    color: #004cff99;
+    font-size: 25px;
+
+}
+
+.form-pagina-5{
+
+    display: inline none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item-form-titulo{
+    padding-top: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.form-item-1{
+    background-color: #004cff99;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin: 10% 10%;
+    width: 80%;
+
+}
+
+.form-item-1 label{
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.form-item-2{
+    background-color: #004cff6b;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin: 10% 10%;
+    width: 80%;
+}
+
+.form-item-2 label{
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.form-item-3{
+    background-color: #004cff6b;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin: 10% 10%;
+    width: 80%;
+}
+
+.form-item-3 label {
+    margin: 10px 10px;
+}
+
+.textarea {
+    width: 900px !important;
+    height: 50px !important;
+}
+
+.form-item-3 select{
+    border: 0;
+    outline: 0;
+    background: white;
+    width: 280px;
+    height: 30px;
+    border-radius: 25px;
+
+}
+
+.form-item-3 input {
+    border: 0;
+    outline: 0;
+    background: white;
+    width: 280px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.img-backgorud-pagina-6 {
+
+    background-image: url("../img/breathe-bg-inverted.png");
+    background-repeat: no-repeat;
+    padding: 15%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.titulo-pagina-6{
+    color: white;
+}
+
+.div-pagina-6{
+    display: inline none;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.rodape {
+    color: #004cff99 !important;
+    text-align: center;
+}
+
+.rodape p{
+    color: #004cff99 !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #header-devninjas {
+        flex-direction: column;
+    }
+
+    .navbar-padrao {
+        text-align: center;
+        margin: 5% 0;
+        flex-direction: column;
+
+    }
+
+    .item-navbar {
+        margin: 5% 0;
+    }
+
+    .header-pagina-3{
+        height:35%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    
+    }    
+
+    #pg-1 {
+        background-image: none;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #img-home {
+        display: none;
+    }
+
+    .textarea {
+        width: 280px !important;
+        height: 50px !important;
+    }
+
+    .img-backgorud-pagina-4 {
+
+        background-image: url("../img/breathe-bg.png");
+        background-repeat: no-repeat;
+        padding: 20%;
+        background-position: center;
+        background-size: 100% 100%;
+    
+    }
+
+    .img-backgorud-pagina-6 {
+
+        background-image: url("../img/breathe-bg-inverted.png");
+        background-repeat: no-repeat;
+        padding: 22%;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+}
+
