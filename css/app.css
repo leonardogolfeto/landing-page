@@ -1,3 +1,8 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     font-family: 'Josefin Sans', sans-serif;
@@ -207,6 +212,11 @@ li {
 
 }
 
+
+
+.pg-5 {
+    padding: 25px 25px 25px 25px;
+}
 .titulo-item-pagina-4 {
 
     padding: 10x 0;
@@ -284,12 +294,12 @@ li {
     background-color: #004cff6b;
     border-radius: 25px;
     padding: 0 25px;
-    margin: 10% 10%;
+    margin: 10% 10% ;
     width: 80%;
 }
 
 .form-item-3 label {
-    margin: 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .textarea {
@@ -329,8 +339,12 @@ li {
     color: white;
 }
 
+.text-pagina-6{
+    color: white;
+}
+
 .div-pagina-6{
-    display: inline none;
+    display: inline;
     justify-content: center;
     align-items: center;
     text-align: center
@@ -346,7 +360,7 @@ li {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     #header-devninjas {
         flex-direction: column;
     }
@@ -403,6 +417,67 @@ li {
         padding: 22%;
         background-position: center;
         background-size: 100% 100%;
+    }
+
+    .form-item-3 input {
+        border: 0;
+        outline: 0;
+        background: white;
+        width: 220px;
+        height: 30px;
+        border-radius: 25px;
+    }
+
+    .form-item-3 select{
+        border: 0;
+        outline: 0;
+        background: white;
+        width: 220px;
+        height: 30px;
+        border-radius: 25px;
+
+    }
+
+    .titulo-pagina-6{
+        color: white;
+        padding-top: 50px;
+    }
+
+    .text-pagina-6{
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .form-item-2 label{
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-item-2{
+        background-color: #004cff6b;
+        border-radius: 25px;
+        padding: 0 25px;
+        margin: 10% 10%;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .form-item-1 label{
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-item-1{
+        background-color: #004cff99;
+        border-radius: 25px;
+        padding: 0 25px;
+        margin: 10% 10%;
+        width: 80%;
+        text-align: justify;
     }
 }
 
